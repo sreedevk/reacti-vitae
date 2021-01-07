@@ -54,10 +54,10 @@ export default class Resume extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-12">
+              <div className="col-lg-5 col-md-5 col-sm-12">
                 <PersonalData />
               </div>
-              <div className="col-lg-8 col-sm-12 col-md-8">
+              <div className="col-lg-7 col-md-7 col-sm-12">
                 <Notes /> 
               </div>
             </div>

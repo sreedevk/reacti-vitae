@@ -32,7 +32,7 @@ export default class Career extends Component {
       {
         "name": "Infineye Technologies",
         "location": "Coimbatore, IN.",
-        "summary": "Worked on creation and maintenance of an API service web application for college application processing.",
+        "summary": "Worked on creation and maintenance of an API service web application for college application processing. Architected the data model for the system to efficiently integrate third party APIs & enable high speed data retrieval. Worked with the mobile application development team to deliver specialized APIs for integration with the core application.",
         "stack": "Python, Django, Postgresql, Javascript, jQuery",
         "start_date": "Dec, 2017",
         "end_date": "Feb, 2018",
@@ -41,7 +41,7 @@ export default class Career extends Component {
       {
         "name": "HousingMan",
         "location": "Bengaluru, IN.",
-        "summary": "Worked with various teams to design & develop data heavy API systems & Web Applications. Developed Highly efficient data visualization & data processing platforms and content management systems.",
+        "summary": "Worked with various teams to design & develop data heavy API systems & Web Applications. Developed Highly efficient data visualization & data processing platforms and content management systems. Worked on building highly modular CRM tools, organizational tracking tools, customer data collection engines and more.",
         "stack": "Ruby, Ruby on Rails, Postgresql, Javascript, jQuery, php, Nginx, Passenger, Unicorn",
         "start_date": "Feb, 2018",
         "end_date": "Feb, 2019",
@@ -92,7 +92,7 @@ export default class Career extends Component {
           <span className="section-title-content">Career</span>
         </h2>
         <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          <div className="col-lg-10 col-md-10 col-sm-12">
             { this.loadCompanies() }
           </div>
         </div>

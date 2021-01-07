@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 
 export default class PersonalData extends Component {
+  listAchievements(){
+    const achievements = [
+      "Electronic Keyboard Grade I - Trinity College of London",
+      "Guest Lectures at NGM College, Avinashilingam University for Women",
+      "Talk    - 'Deep Web & Dark Net' @ Geek Nights Hosted by Thoughtworks, Inc. ",
+      "Webinar - 'Command Line Voodoo' Hosted by Sedin Technologies, Pvt. Ltd., ",
+      "Webinar - 'Ruby & Rails Tips & Tricks' Hosted by Sedin Technologies, Pvt. Ltd., ",
+      "Webinar - 'Materialized Views in Rails' Hosted by TarkaLabs."
+    ]
+    return achievements.map(function(achievement, index){
+      return(<li key={`achievement_${index}`}>{achievement}</li>)
+    });
+  }
+
   render(){
     return(
       <React.Fragment>
@@ -11,29 +25,28 @@ export default class PersonalData extends Component {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <table className="pd-table">
-              <tr>
-                <th>Achievements</th>
-                <td>
-                  <ul className="pd-achievements-list">
-                    <li>Electronic Keyboard Grade I - Trinity College of London</li>
-                    <li>Guest Lectures at NGM College, Avinashilingam University for Women</li>
-                    <li>Talk    - "Deep Web & Dark Net" @ Geek Nights Hosted by Thoughtworks, Inc. </li>
-                    <li>Webinar - "Command Line Voodoo" Hosted by Sedin Technologies, Pvt. Ltd., </li>
-                    <li>Webinar - "Ruby & Rails Tips & Tricks" Hosted by Sedin Technologies, Pvt. Ltd., </li>
-                    <li>Webinar - "Materialized Views in Rails"</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th>Interests</th>
-                <td>
-                  Public Speaking, Blogging, OpenSource Contributions, Radiography (SDR & Amateur Radio), Music. 
-                </td>
-              </tr>
-              <tr>
-                <th>Date of Birth</th>
-                <td>11/06/1997</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <th>ACHIEVEMENTS</th>
+                  <td>
+                    <ul className="pd-achievements-list">
+                      { this.listAchievements() }
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th>INTERESTS</th>
+                  <td>
+                    <div className="interests">
+                      Public Speaking, Blogging, OpenSource Contributions, Radiography (SDR & Amateur Radio), Music. 
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>DOB</th>
+                  <td><span className="dob">11/06/1997</span></td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

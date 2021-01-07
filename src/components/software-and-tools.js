@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 class SoftwareCategory extends Component {
   render(){
     return(
-      <tr>
+      <tr key={`${this.props.categoryName}_cn`}>
         <th>{this.props.categoryName}</th>
-        {this.props.categoryItems.map(function(categoryItem){
-          return(<td>{categoryItem}</td>);
+        {this.props.categoryItems.map(function(categoryItem, index){
+          return(<td key={`${index}_${categoryItem}_ci`}>{categoryItem}</td>);
         })}
       </tr>
     )
@@ -48,7 +48,7 @@ export default class SoftwareAndTools extends Component {
     const softwareCategories = [];
     software.forEach(function(sftCat){
       softwareCategories.push(<SoftwareCategory
-        key={sftCat.category_name}
+        key={`${sftCat.category_name}_cname`}
         categoryName={sftCat.category_name}
         categoryItems={sftCat.category_items}
       />);
@@ -66,11 +66,11 @@ export default class SoftwareAndTools extends Component {
         <table className="software-and-tools-table">
           <thead>
             <tr>
-              <td colspan="8"></td>
+              <td colSpan="8"></td>
             </tr>
           </thead>
           <tbody>
-            {this.listSoftware()}           
+            {this.listSoftware()}
           </tbody>
         </table>
       </React.Fragment>

@@ -1,7 +1,43 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 
+class SkillProficiency extends Component {
+  render(){
+    return(
+      <li>
+        <span className="programming-skill">{this.props.skillName}</span>
+        <div className="progress">
+          <div className="progress-filled" style={{ "width": `${this.props.proficiency}%`}}></div>
+        </div>
+      </li>
+    )
+  }
+}
+
 export default class ProgrammingSkills extends Component {
+  
+  listSkills(){
+    const skills = [
+      { "skill_name": "Ruby", "proficiency": 100 },
+      { "skill_name": "Javascript", "proficiency": 90 },
+      { "skill_name": "Python", "proficiency": 60 },
+      { "skill_name": "C/C++", "proficiency": 90 },
+      { "skill_name": "Rust", "proficiency": 60 },
+      { "skill_name": "Clojure", "proficiency": 40 },
+      { "skill_name": "Shell Scripting", "proficiency": 60 },
+    ];
+
+    return skills.map(function(skill, index){
+      return(
+        <SkillProficiency
+          key={`skill_${index}`}
+          skillName={skill.skill_name}
+          proficiency={skill.proficiency}
+        />
+      )
+    });
+  }
+
   componentDidMount() {
     $('div[data-percentage]').remove();
   }
@@ -14,48 +50,7 @@ export default class ProgrammingSkills extends Component {
           <span className="section-title-content">Programming Skills</span>
         </h2>
         <ul className="programming-skills-list">
-          <li>
-            <span className="programming-skill">Ruby</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="100"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">Javascript</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="90"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">Python</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="60"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">C/C++</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="80"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">Rust</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="60"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">Clojure</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="30"></div>
-            </div>
-          </li>
-          <li>
-            <span className="programming-skill">Bash</span>
-            <div className="progress">
-              <div className="progress-filled" data-percentage="80"></div>
-            </div>
-          </li>
+          { this.listSkills() }
         </ul>
       </React.Fragment>
     );

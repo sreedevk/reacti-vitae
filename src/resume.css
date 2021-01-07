@@ -9,7 +9,7 @@
   border-bottom: 2px solid black;
   border-top: 3px double black;
   margin: 5px 0px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .section-title svg {
@@ -23,7 +23,7 @@
 
 .section-para {
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
   font-family: ubuntu_regular;
   font-weight: 300;
   padding: 10px;
@@ -54,9 +54,16 @@ ul.programming-skills-list li .progress {
   background: darkgrey;
 }
 
+ul.programming-skills-list li .progress-filled {
+  background: #e63946;
+  height: 100%;
+}
+
 ul.technical-skills li {
   font-family: jetbrains_bold;
+  list-style-type: square;
   margin: 5px 0px;
+  font-size: 20px;
 }
 
 .technical-skills-container {
@@ -128,48 +135,68 @@ ul.header-social li {
 }
 
 .career-company-container {
-  margin-bottom: 30px;
-  margin-top: 10px;
+  margin: 30px 0px;
 }
 
 .career-company {
-  border-left: 2px solid #e63946;
+  border-left: 3px solid #e63946;
   padding-left: 15px;
+}
+
+.career-company::after {
+  content: "*";
+  font-size: 28px;
+  margin-left: -23px;
+  position: relative;
+  color: #1d3557;
+  top: 40px;
+}
+
+.company-period-of-service {
+  font-family: ubuntu_regular;
+  float: right;
 }
 
 .career-company-container .career-company-name {
   font-family: jetbrains_bold;
+  font-size: 24px;
+  padding: 5px 0px;
   margin: 0px;
 }
 
 .career-company-container .career-company-location {
   font-family: ubuntu_regular;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 14px;
   color: #457b9d;
   margin: 0px 15px;
 }
 
 .career-company-container .career-company-designation {
   font-family: jetbrains_bold;
-  font-size: 20px;
+  font-size: 16px;
   color: #e63946;
 }
 
 .career-company-container .career-company-summary {
   font-family: ubuntu_regular;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .career-company-container .company-tech-stack-descriptor {
   font-family: jetbrains_bold;
   color: #457b9d;
+  font-size: 14px;
 }
 
 .career-company-container .company-tech-stack {
   font-family: ubuntu_regular;
-  font-size: 22px;
+  font-size: 16px;
   color: #1d3557;
+}
+
+table.software-and-tools-table {
+  margin: 15px 0px;
 }
 
 table.software-and-tools-table tbody tr * {
@@ -184,9 +211,11 @@ table.software-and-tools-table tbody tr td {
 }
 
 table.software-and-tools-table tbody tr th {
+  padding: 10px;
   font-family: jetbrains_bold;
   font-weight: 800;
   font-size: 18px;
+  color: #e63946;
 }
 
 table.software-and-tools-table tbody tr {
@@ -239,3 +268,79 @@ footer {
 footer h4 {
   font-size: 14px;
 }
+
+.degree {
+  font-family: ubuntu_regular;
+  font-size: 24px;
+}
+
+.university {
+  font-family: ubuntu_regular;
+  font-size: 18px;
+}
+
+.university-location {
+  color: #e63946;
+}
+
+.education-year-of-comp {
+  font-weight: 900;
+  font-family: jetbrains_bold;
+}
+
+.education-row {
+  margin: 15px 0px;
+}
+
+.language-name {
+  font-family: ubuntu_regular;
+  font-size: 20px;
+}
+
+.language-element {
+  margin: 10px 0px;
+}
+
+.language-element .proficiency-indicator {
+  font-size: 26px;
+  letter-spacing: 6px;
+  color: #e63946;
+  font-weight: 900;
+  font-family: jetbrains_bold;
+  line-height: 1;
+}
+
+ul.interpersonal-skills {
+  margin: 20px 0px;
+  margin-bottom: 50px;
+}
+
+ul.interpersonal-skills li {
+  font-family: jetbrains_bold;
+  list-style-type: square;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.pd-table th {
+  font-family: jetbrains_bold;
+  color: #e63946;
+}
+
+.pd-table .interests {
+  font-family: ubuntu_regular;
+  font-size: 18px;
+}
+
+.pd-table tr td, .pd-table tr th {
+  padding: 10px;
+}
+.pd-table .dob {
+  font-family: ubuntu_regular;
+  font-size: 18px;
+}
+
+.pd-achievements-list li {
+  font-family: ubuntu_regular;
+}
+

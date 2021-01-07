@@ -3,16 +3,18 @@ import React, { Component } from 'react'
 class EducationalInstitution extends Component {
   render(){
     return(
-      <div className="row">
+      <div className="row education-row">
         <div className="col-lg-10 col-md-10 col-sm-10">
           <h3 className="degree">{ this.props.degree }</h3>
           <h4 className="university">
-            { this.props.university }
+            { this.props.university }.
             <span className="university-location"> { this.props.location }</span>
           </h4>
         </div>
         <div className="col-lg-1 col-md-1 col-sm-1">
-          { this.props.year_of_completion } 
+          <span className="education-year-of-comp">
+            { this.props.year_of_completion } 
+          </span>
         </div>
       </div>
     );
@@ -32,7 +34,7 @@ export default class Education extends Component {
         "university": "Our Own English High School",
         "degree": "Senior Secondary Education - CBSE",
         "location": "Sharjah, AE.",
-        "year_of_completion": 2018
+        "year_of_completion": 2015
       }
     ];
 
