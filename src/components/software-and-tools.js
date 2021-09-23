@@ -18,11 +18,11 @@ export default class SoftwareAndTools extends Component {
     const software = [
       {
         "category_name": "Database",
-        "category_items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "GraphQL", "", ""]
+        "category_items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Dgraph", "Redis", ""]
       },
       {
         "category_name": "WebApp Frameworks",
-        "category_items": ["Rails", "ExpressJS", "Flask", "Django", "Padrino", "Sinatra", ""]
+        "category_items": ["Rails", "ExpressJS", "Phoenix", "Django", "Padrino", "Sinatra", ""]
       },
       {
         "category_name": "Frontend Tools",
@@ -30,7 +30,7 @@ export default class SoftwareAndTools extends Component {
       },
       {
         "category_name": "Embedded Systems",
-        "category_items": ["ESP-IDF", "FreeRTOS", "microPython", "mRuby", "", "", ""]
+        "category_items": ["ESP-IDF", "FreeRTOS", "microPython", "mRuby", "K210-RISC-V-SDK", "", ""]
       },
       {
         "category_name": "Game Development",
@@ -38,11 +38,11 @@ export default class SoftwareAndTools extends Component {
       },
       {
         "category_name": "Test Frameworks",
-        "category_items": ["RSpec", "Cucumber", "Watir (Automation)", "MiniTest", "", "", ""]
+        "category_items": ["RSpec", "Cucumber", "Watir (Automation)", "MiniTest", "ExUnit", "", ""]
       },
       {
         "category_name": "Others",
-        "category_items": ["ArchLinux", "Git", "Metasploit", "Sidekiq", "Wordpress", "Gentoo", ""]
+        "category_items": ["Vim", "Gnu/Linux", "Git", "Gentoo", "Sidekiq", "Wordpress", "Gentoo"]
       }
     ];
     const softwareCategories = [];

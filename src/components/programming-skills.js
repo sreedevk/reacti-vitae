@@ -19,11 +19,11 @@ export default class ProgrammingSkills extends Component {
   listSkills(){
     const skills = [
       { "skill_name": "Ruby", "proficiency": 100 },
-      { "skill_name": "Javascript", "proficiency": 90 },
-      { "skill_name": "Python", "proficiency": 60 },
+      { "skill_name": "Elixir", "proficiency": 80 },
       { "skill_name": "C/C++", "proficiency": 90 },
+      { "skill_name": "Python", "proficiency": 60 },
       { "skill_name": "Rust", "proficiency": 60 },
-      { "skill_name": "Clojure", "proficiency": 40 },
+      { "skill_name": "Javascript", "proficiency": 90 },
       { "skill_name": "Shell Scripting", "proficiency": 60 },
     ];
 

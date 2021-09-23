@@ -4,10 +4,10 @@ export default class TechnicalSkills extends Component {
   technicalSkillTable(){
     const techSkills = [
       "Algorithms", "Data Structures", "Objected Oriented Design", "Functional Programming",
-      "Dynamic Programming", "Systems Programming", "Machine Learning", "Web Development",
+      "Dynamic Programming", "Systems Programming", "Lambda Calculus", "Web Development",
       "Design Patterns", "Software Architecture", "Data Visualization", "Concurrency & Parallelism",
       "Static Web Design", "SDR Programming", "Linux Systems", "Competitive Programming",
-      "Game Development", "Graphics Programming", "Software Distribution",
+      "Game Development", "Category Theory", "Software Distribution",
       "Audio Programming", "Technical Documentation"
     ];
 
