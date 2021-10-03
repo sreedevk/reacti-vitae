@@ -1,4 +1,5 @@
 # React Resume Builder
+![2021-10-04-024246_1858x818_scrot](https://user-images.githubusercontent.com/36154121/135771720-b4be95c6-1999-4f00-8e26-b01a4519f636.png)
 
 Simple React Resume Builder
 
