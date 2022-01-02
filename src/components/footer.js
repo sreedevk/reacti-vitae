@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 export default class Footer extends Component {
   render(){
     return(
       <footer>
-        <h4><i className="far fa-copyright"></i> Resumé of Sreedev Kodichath | All Rights Reserved</h4>
+        <h4>
+          <i className="far fa-copyright"></i>&nbsp;
+          <span>
+            Resumé of { `${ResumeData?.name?.first} ${ResumeData?.name?.last}` } | All Rights Reserved
+          </span>
+        </h4>
       </footer>
     )
   }

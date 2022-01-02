@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 class SoftwareCategory extends Component {
   render(){
@@ -15,36 +16,7 @@ class SoftwareCategory extends Component {
 
 export default class SoftwareAndTools extends Component {
   listSoftware(){
-    const software = [
-      {
-        "category_name": "Database",
-        "category_items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Dgraph", "Redis", ""]
-      },
-      {
-        "category_name": "WebApp Frameworks",
-        "category_items": ["Rails", "ExpressJS", "Phoenix", "Django", "Padrino", "Sinatra", ""]
-      },
-      {
-        "category_name": "Frontend Tools",
-        "category_items": ["ReactJS", "Boostrap", "Foundation", "jQuery", "SCSS", "VueJS", "Gatsby"]
-      },
-      {
-        "category_name": "Embedded Systems",
-        "category_items": ["ESP-IDF", "FreeRTOS", "microPython", "mRuby", "K210-RISC-V-SDK", "", ""]
-      },
-      {
-        "category_name": "Game Development",
-        "category_items": ["SDL2", "DragonRuby", "p5.js", "Cairo", "Vulkan", "", ""]
-      },
-      {
-        "category_name": "Test Frameworks",
-        "category_items": ["RSpec", "Cucumber", "Watir (Automation)", "MiniTest", "ExUnit", "", ""]
-      },
-      {
-        "category_name": "Others",
-        "category_items": ["Vim", "Gnu/Linux", "Git", "Gentoo", "Sidekiq", "Wordpress", "Gentoo"]
-      }
-    ];
+    const software = ResumeData?.software_and_tools;
     const softwareCategories = [];
     software.forEach(function(sftCat){
       softwareCategories.push(<SoftwareCategory

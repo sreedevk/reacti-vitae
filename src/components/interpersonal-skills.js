@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 export default class InterpersonalSkills extends Component {
   renderIpSkills(){
-    const ipSkills = [ "Emotional Intelligence", "Excellent Leadership Abilities", "Team Building Skills", "Responsibility & Accountability", "Stellar Communication Skills", "Conflict Resolution", "Problem Solving Skills"];
-
+    const ipSkills = ResumeData?.interpersonal_skills;
     const cols = 2;
     const chunkSize = Math.ceil(ipSkills.length / cols);
     const skillTable = [];

@@ -1,16 +1,9 @@
 import React, { Component } from 'react';
+import ResumeData from '../data';
 
-export default class PersonalData extends Component {
+export default class PersonalData extends Component {j
   listAchievements(){
-    const achievements = [
-      "Electronic Keyboard Grade I - Trinity College of London",
-      "Guest Lectures at NGM College, Avinashilingam University for Women",
-      "Talk    - 'Deep Web & Dark Net' @ Geek Nights Hosted by Thoughtworks, Inc. ",
-      "Webinar - 'Command Line Voodoo' Hosted by Sedin Technologies, Pvt. Ltd., ",
-      "Webinar - 'Ruby & Rails Tips & Tricks' Hosted by Sedin Technologies, Pvt. Ltd., ",
-      "Webinar - 'Materialized Views in Rails' Hosted by TarkaLabs."
-    ]
-    return achievements.map(function(achievement, index){
+    return ResumeData?.achievements.map(function(achievement, index){
       return(<li key={`achievement_${index}`}>{achievement}</li>)
     });
   }
@@ -36,15 +29,11 @@ export default class PersonalData extends Component {
                 </tr>
                 <tr>
                   <th>INTERESTS</th>
-                  <td>
-                    <div className="interests">
-                      Public Speaking, Blogging, OpenSource Contributions, Radiography (SDR & Amateur Radio), Music. 
-                    </div>
-                  </td>
+                  <td><div className="interests">{ResumeData?.interests}</div></td>
                 </tr>
                 <tr>
                   <th>DOB</th>
-                  <td><span className="dob">11/06/1997</span></td>
+                  <td><span className="dob">{ResumeData?.date_of_birth}</span></td>
                 </tr>
               </tbody>
             </table>

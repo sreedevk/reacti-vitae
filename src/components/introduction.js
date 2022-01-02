@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 export default class Introduction extends Component {
   render(){
@@ -9,13 +10,7 @@ export default class Introduction extends Component {
             <i className="fas fa-user-cog"></i>
             <span className="section-title-content">Introduction</span>
           </h2>
-          <p className="section-para">
-            As an innovative & fervent software development engineer, learning and adapting to the constantly evolving
-            field of software & technology has always been a priority to me.
-            My creative thinking & cognitive abilities help build my software design & adroitness. 
-            Efficient communication skills that I have enhanced over time will prove to be an asset
-            in the work environment.
-          </p>
+          <p className="section-para">{ ResumeData?.introduction }</p>
         </div>
       </div>
     );

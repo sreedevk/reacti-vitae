@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 import $ from 'jquery'
 
 class SkillProficiency extends Component {
@@ -15,19 +16,8 @@ class SkillProficiency extends Component {
 }
 
 export default class ProgrammingSkills extends Component {
-  
   listSkills(){
-    const skills = [
-      { "skill_name": "Ruby", "proficiency": 100 },
-      { "skill_name": "Elixir", "proficiency": 80 },
-      { "skill_name": "C/C++", "proficiency": 90 },
-      { "skill_name": "Python", "proficiency": 60 },
-      { "skill_name": "Rust", "proficiency": 60 },
-      { "skill_name": "Javascript", "proficiency": 90 },
-      { "skill_name": "Shell Scripting", "proficiency": 60 },
-    ];
-
-    return skills.map(function(skill, index){
+    return ResumeData?.programming_skills.map(function(skill, index){
       return(
         <SkillProficiency
           key={`skill_${index}`}

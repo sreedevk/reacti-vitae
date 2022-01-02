@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 class EducationalInstitution extends Component {
   render(){
@@ -22,25 +23,9 @@ class EducationalInstitution extends Component {
 }
 
 export default class Education extends Component {
-  listEducation(){
-    const education_list = [
-      { 
-        "university": "Bharathiar University",
-        "degree": "Bachelor of Commerce",
-        "location": "Tamilnadu, IN.",
-        "year_of_completion": 2018
-      },
-      { 
-        "university": "Our Own English High School",
-        "degree": "Senior Secondary Education - CBSE",
-        "location": "Sharjah, AE.",
-        "year_of_completion": 2015
-      }
-    ];
-
-    const education_component_list = [];
-    education_list.forEach( (ed) => {
-      education_component_list.push(
+  listEducation() {
+    return ResumeData["education"].map((ed) => {
+      return (
         <EducationalInstitution 
           key={ed.degree}
           degree={ed.degree}
@@ -50,7 +35,6 @@ export default class Education extends Component {
         />
       )
     });
-    return education_component_list;
   }
 
   render(){

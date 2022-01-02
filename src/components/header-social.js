@@ -1,26 +1,22 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 export default class HeaderSocial extends Component {
+  formatSocial() {
+    return ResumeData?.social.map(social_ent => {
+      return (
+        <li>
+          <i className={social_ent?.icon}></i>
+          <span>{social_ent?.handle}</span>
+        </li>
+      )
+    })
+  }
+
   render(){
     return(
       <ul className="header-social">
-        <li>
-          <i className="fas fa-code-branch"></i>
-          <span>@sreedevk</span>
-        </li>
-        <li>
-          <i className="fab fa-linkedin"></i>
-          <span>/in/ksreedev</span>
-        </li>
-        <li>
-          <i className="fab fa-reddit-alien"></i>
-          <span>/u/sdevk</span>
-        </li>
-        <li>
-          <i className="fas fa-globe-asia"></i>
-          <span>www.sree.dev</span>
-        </li>
-
+        { this.formatSocial() }
       </ul>
     )
   }

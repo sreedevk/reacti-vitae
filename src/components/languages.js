@@ -1,17 +1,10 @@
 import React, { Component } from 'react'
+import ResumeData from '../data'
 
 
 export default class Languages extends Component {
   listLanguages(index){
-    const languageList = [
-      { "name": "English", "proficiency": 5 },
-      { "name": "Kannada", "proficiency": 3 },
-      { "name": "Tamil", "proficiency": 4 },
-      { "name": "Hindi", "proficiency": 4 },
-      { "name": "Malayalam", "proficiency": 5 },
-      { "name": "Arabic", "proficiency": 4 },
-    ]
-
+    const languageList = ResumeData?.human_languages;
     const languageComponentList = [[], []];
     let columnSelector = 0;
     languageList.forEach((language) => {

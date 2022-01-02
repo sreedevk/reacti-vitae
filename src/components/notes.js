@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import QRCode from '../assets/images/qr.png'
+import ResumeData from '../data'
+import QRCode from "../assets/images/qr.png"
 
 export default class Notes extends Component {
   render() {
