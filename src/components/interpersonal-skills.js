@@ -9,11 +9,11 @@ export default class InterpersonalSkills extends Component {
     const skillTable = [];
 
     for(var i=0; i<= ipSkills.length; i+=chunkSize) {
-      var current_slice = [];
-      ipSkills.slice(i, i+chunkSize).forEach(function(skill, index){
-        current_slice.push(<li key={skill}>{ skill }</li>);
-      })
-      skillTable.push(current_slice);
+      skillTable.push(
+        ipSkills.slice(i, i+chunkSize).map(function(skill, index){
+          return (<li key={skill}>{ skill }</li>);
+        })
+      );
     }
 
     return skillTable.map(function(skillset, index){

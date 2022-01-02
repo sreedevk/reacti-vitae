@@ -166,11 +166,11 @@ export default {
   ],
   achievements: [
     "Electronic Keyboard Grade I - Trinity College of London",
-    "Guest Lectures at NGM College, Avinashilingam University for Women",
-    "Talk    - 'Deep Web & Dark Net' @ Geek Nights Hosted by Thoughtworks, Inc. ",
-    "Webinar - 'Command Line Voodoo' Hosted by Sedin Technologies, Pvt. Ltd., ",
-    "Webinar - 'Ruby & Rails Tips & Tricks' Hosted by Sedin Technologies, Pvt. Ltd., ",
-    "Webinar - 'Materialized Views in Rails' Hosted by TarkaLabs."
+    "Talk - 'Deep Web & Dark Net' @ Geek Nights (Thoughtworks)",
+    "Talk - 'Command Line Voodoo' (Sedin Technologies)",
+    "Talk - 'Ruby & Rails Tips & Tricks' (Sedin Technologies)",
+    "Talk - 'Materialized Views in Rails' (TarkaLabs)",
+    "Talk - 'Introduction to Elixir' (TarkaLabs)"
   ],
   interests: "Public Speaking, Blogging, OpenSource Contributions, Radiography (SDR & Amateur Radio), Music."
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ResumeData from '../data'
 import QRCode from "../assets/images/qr.png"
 
 export default class Notes extends Component {
@@ -9,7 +8,7 @@ export default class Notes extends Component {
         <div className="col-lg-12 col-md-12 col-sm-12">
           <div className="notes-card">
             <h4><i className="far fa-sticky-note"></i> Notes</h4>
-            <img src={QRCode} className="qr-code"/>
+            <img src={QRCode} alt="QRCode" className="qr-code"/>
           </div>
         </div>
       </div>

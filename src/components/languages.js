@@ -18,7 +18,7 @@ export default class Languages extends Component {
           </div>
         </div>
       );
-      columnSelector = (columnSelector == 0 ? 1 : 0);
+      columnSelector = (columnSelector === 0 ? 1 : 0);
     });
     return languageComponentList[index];
   }

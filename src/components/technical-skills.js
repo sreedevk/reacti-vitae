@@ -10,11 +10,9 @@ export default class TechnicalSkills extends Component {
     const skillTable = [];
 
     for(var i=0; i<= techSkills.length; i+=chunkSize) {
-      var current_slice = [];
-      techSkills.slice(i, i+chunkSize).forEach(function(skill, index){
-        current_slice.push(<li key={skill}>{ skill }</li>);
-      })
-      skillTable.push(current_slice);
+      skillTable.push(
+        techSkills.slice(i, i+chunkSize).map((skill, index) => (<li key={ index }>{ skill }</li>))
+      );
     }
 
     return skillTable.map(function(skillset, index){
