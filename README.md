@@ -4,7 +4,8 @@ currently limited to one theme. The process of personalizing this resume templat
 as simple as modifying the `src/data.js` file.
 
 ### Example
-![2021-10-04-024246_1858x818_scrot](https://user-images.githubusercontent.com/36154121/135771720-b4be95c6-1999-4f00-8e26-b01a4519f636.png)
+![2022-01-08-152155_2843x1334_scrot](https://user-images.githubusercontent.com/36154121/148639877-d6129245-68df-4503-857d-f864aa77769f.png)
+
 
 checkout the full resume at : https://www.sree.dev/resume_of_sreedev_kodichath.pdf
 
