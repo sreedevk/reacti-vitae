@@ -7,7 +7,7 @@ export default {
   email: "sreedevpadmakumar@gmail.com",
   phone: "+91-9600928275",
   date_of_birth: "11/06/1997",
-  tagline: "engineering robust, user-focused solutions driving breakthrough efficiency",
+  tagline: "Engineering & Architecting Distributed, Concurrent, Event Driven Reactive Software Systems",
   social: [
     {
       name: "github",
@@ -38,19 +38,14 @@ export default {
   },
   career: [
     {
-      "name": "Infineye Technologies",
-      "location": "Coimbatore, IN.",
-      "summary": "Worked on creation and maintenance of an API service for college application processing & tracking. Architected the data model for the system to efficiently integrate third party APIs & enable high speed data retrieval. Worked with the mobile application development team to deliver specialized APIs for integration with the core application.",
-      "stack": "Python, Django, Postgresql, Javascript, jQuery",
-      "start_date": "Dec, 2017",
-      "end_date": "Feb, 2018",
-      "designation": "Software Developer"
-    },
-    {
       "name": "HousingMan",
       "location": "Bengaluru, IN.",
-      "summary": "Worked with various teams to design & develop data heavy API systems & Web Applications. Developed Highly efficient data visualization & data processing platforms and content management systems. Built highly modular CRM tools, organizational tracking tools, customer data collection engines and more.",
-      "stack": "Ruby, Ruby on Rails, Postgresql, Javascript, jQuery, php, Nginx, Passenger, Unicorn",
+      "summary": [
+        "Customer Relationship Management Software Design + Implementation",
+        "Customer Engagement Algorithms",
+        "Communication systems for improved customer interaction."
+      ],
+      "stack": "Ruby/Rails, Postgresql, Javascript, PHP, AWS.",
       "start_date": "Feb, 2018",
       "end_date": "Feb, 2019",
       "designation": "Software Engineer"
@@ -58,8 +53,13 @@ export default {
     {
       "name": "Riskcovry",
       "location": "Bengaluru, IN.",
-      "summary": "Designed & developed APIs for insurance sales meant for third party insurance vendors' consumption. Integrated various solutions including payment gateways & insurance sale points. Created administrative and reporting tools that helped influence core decisions.",
-      "stack": "Ruby, Ruby on Rails, Postgresql, Javascript, jQuery, Python, Nginx, Passenger",
+      "summary": [
+        "Insurance Distribution API design & Implementation",
+        "Third Party Financial Solutions API Integration.",
+        "Admin tools for Business Intelligence & Data Analytics",
+        "Insurance Vendor Management Tools Design"
+      ],
+      "stack": "Ruby/Rails, Postgresql, Javascript, Python.",
       "start_date": "Feb, 2019",
       "end_date": "Jan, 2020",
       "designation": "Software Engineer"
@@ -67,29 +67,32 @@ export default {
     {
       "name": "TarkaLabs",
       "location": "Bengaluru, IN.",
-      "summary": "Worked with Tunecore Inc., on architecting and implementing highly concurrent data processing pipelines, highly available systems, improving coding practices and architecting compliance solutions. Created technical content for blogs, tech forums. Presented tech talks on different interesting topics",
-      "stack": "Ruby, Ruby on Rails, Elixir, Postgresql, Javascript, jQuery, Python, Nginx, Puma, Docker, AWS",
+      "summary": [
+        "Technical Content Generation on subjects like Digital Signal Processing, Software Systems & Ruby Language Internals.",
+        "Client Technical Consultation (Tunecore).",
+        "High Volume Data Ingestion & Data Processing Pipelines Design & Implementation.",
+        "Financial Systems Design.",
+        "Customer Revenue Taxation Solutions (United States Tax Laws) - Design & Implementation.",
+        "Payment Systems Integration."],
+      "stack": "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
       "start_date": "Jan, 2020",
       "end_date": "Present",
       "designation": "Senior Software Engineer"
     }
   ],
-  introduction: `As an innovative & fervent software development engineer,
-  learning and adapting to the constantly evolving
-  field of software & technology has always been a priority to me.
-  My creative thinking & cognitive abilities help build my software design & adroitness. 
-  Efficient communication skills that I have enhanced over time will prove to be an asset
-  in the work environment.`,
+  introduction: `I am a Software Engineer, a Tech Blogger, an Eloquent Orator, an Electronics Enthusiast among other things. Over the years I've worked in a few different industries including Realty, Insurance, Entertainment & Tech Services. I specialize in building Highly Available Distributed Data Processing Pipelines, International Taxation & Financial Systems Design and Event Driven Distributed Microservice Platforms. I am currently exploring lambda calculus, combinatory logic, category theory & functional programming. I've worked with a wide range of programming languages that span over different programming paradigms including Object Oriented, Functional, Logical, Imperative & Declarative programming. I consider my experience, technical skills and managerial abilities to be the three pillars of my performance as an asset to any organization.`,
   education: [
     { 
       "university": "Bharathiar University",
       "degree": "Bachelor of Commerce",
+      "description": "Extensively studied Financial Systems Design, Accounting Systems & Business Evaluation Strategies which helped me evolve into a Software Engineer focused on Financial Systems Design.",
       "location": "Tamilnadu, IN.",
       "year_of_completion": 2018
     },
     { 
       "university": "Our Own English High School",
       "degree": "Senior Secondary Education - CBSE",
+      "description": "Spent my formative years under the guidance of world class teachers, developing academically and socially.",
       "location": "Sharjah, AE.",
       "year_of_completion": 2015
     }
@@ -110,41 +113,113 @@ export default {
     { "skill_name": "Lua", "proficiency": 30 },
     { "skill_name": "Python", "proficiency": 50 },
     { "skill_name": "Rust", "proficiency": 60 },
-    { "skill_name": "Clojure", "proficiency": 30 },
+    { "skill_name": "Clojure", "proficiency": 40 },
     { "skill_name": "Bash/Zsh/Fish", "proficiency": 60 },
   ],
   software_and_tools: [
     {
-      "category_name": "Database",
-      "category_items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Dgraph", "Redis", "Neo4j"]
+      "category_name": "Databases",
+      "category_items": [
+        "PostgreSQL",
+        "MySQL/MariaDB",
+        "SQLite3",
+        "MongoDB",
+        "Dgraph",
+        "Redis",
+        "Neo4j",
+        "Datomic"
+      ]
     },
     {
       "category_name": "Web Frameworks",
-      "category_items": ["Rails (Ruby)", "Express (JS)", "Phoenix (Elixir)", "Django (Python)", "Sinatra (Ruby)", "Vial (Rust)", "Next (JS)"]
+      "category_items": [
+        "Rails (Ruby)",
+        "Express (JS)",
+        "Phoenix (Elixir)",
+        "Django (Python)",
+        "Sinatra (Ruby)",
+        "Vial (Rust)",
+        "Next (JS)",
+        "Padrino (Ruby)"
+      ]
     },
     {
       "category_name": "Data Processing",
-      "category_items": ["Sidekiq", "Broadway", "Genstage", "ElasticSearch", "", "", ""]
+      "category_items": [
+        "Sidekiq",
+        "Broadway",
+        "Genstage",
+        "ElasticSearch",
+        "RIOT (Redis)",
+        "Snowflake",
+        "Awk",
+        "Tee"
+      ]
     },
     {
       "category_name": "Frontend Tools",
-      "category_items": ["React", "Bootstrap", "Svelte", "jQuery", "SCSS", "TailWindCSS", "Gatsby"]
+      "category_items": [
+        "ReactJS",
+        "Bootstrap",
+        "Svelte",
+        "jQuery",
+        "SCSS",
+        "TailWindCSS",
+        "Gatsby",
+        "StimulusJS"
+      ]
     },
     {
       "category_name": "Embedded Systems",
-      "category_items": ["ESP-IDF", "FreeRTOS", "microPython", "mRuby", "K210-SDK", "", ""]
+      "category_items": [
+        "Espressif - IDF",
+        "FreeRTOS",
+        "MicroPython",
+        "mRuby",
+        "K210-SDK",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "category_name": "Game Development",
-      "category_items": ["SDL2", "DragonRuby", "p5.js", "three.js", "", "", ""]
+      "category_items": [
+        "SDL2",
+        "DragonRuby",
+        "p5.js",
+        "three.js",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "category_name": "Test Frameworks",
-      "category_items": ["RSpec", "Cucumber", "Watir (Automation)", "MiniTest", "ExUnit", "", ""]
+      "category_items": [
+        "RSpec",
+        "Cucumber",
+        "Watir (Automation)",
+        "MiniTest",
+        "ExUnit",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "category_name": "Others",
-      "category_items": ["Vim", "Gnu/Emacs", "Gnu/Linux", "Git", "ArchLinux", "Sidekiq", "Wordpress", "Gentoo"]
+      "category_items": [
+        "Vim",
+        "Gnu/Emacs",
+        "Gnu/Linux",
+        "Git",
+        "ArchLinux",
+        "Wordpress",
+        "SEO Algorithms",
+        "Social Media Management"
+      ]
     }
   ],
   interpersonal_skills: [
@@ -158,11 +233,12 @@ export default {
   ],
   technical_skills: [
     "Algorithms", "Data Structures", "Objected Oriented Design", "Functional Programming",
-    "Dynamic Programming", "Systems Programming", "Lambda Calculus", "Web Development",
-    "Design Patterns", "Software Architecture", "Data Visualization", "Concurrency & Parallelism",
-    "Static Web Design", "SDR Programming", "Linux Systems", "Competitive Programming",
-    "Game Development", "Category Theory", "Software Distribution",
-    "Audio Programming", "Technical Documentation"
+    "Dynamic Programming", "Financial Systems Design", "Lambda Calculus", "Web Applications",
+    "Design Patterns", "Software Architecture", "Data Processing Pipelines", "Concurrency & Parallelism",
+    "UI/UX Analysis & Design", "Compiler Design", "Distributed Systems", "Competitive Programming",
+    "Game Development", "Category Theory", "Event Driven Architecture", "Combinatory Logic",
+    "Audio Programming", "Technical Documentation", "Business Analytics", "Revenue & Tax Solutions", 
+    "Reactive Programming", "Automata Theory", "Theory of Computation"
   ],
   achievements: [
     "Electronic Keyboard Grade I - Trinity College of London",

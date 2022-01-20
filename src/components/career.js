@@ -2,6 +2,14 @@ import React, { Component } from 'react'
 import ResumeData from '../data'
 
 class CareerCompany extends Component {
+  loadCompanySummary() {
+    return (
+      <ol>
+        { this.props.companySummary.map(csummary => <li>{csummary}</li>) }
+      </ol>
+    )
+  }
+
   render(){
     return(
       <div className="row career-company-container">
@@ -15,7 +23,7 @@ class CareerCompany extends Component {
               <span className="career-company-location">{ this.props.companyLocation}</span>
             </h3>
             <h4 className="career-company-designation">{ this.props.companyDesignation }</h4>
-            <p className="career-company-summary">{ this.props.companySummary }</p>
+            <p className="career-company-summary">{ this.loadCompanySummary() }</p>
             <div className="company-tech-stack">
               <span className="company-tech-stack-descriptor">Tech Stack: </span>{this.props.companyStack}
             </div>

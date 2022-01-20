@@ -11,6 +11,7 @@ class EducationalInstitution extends Component {
             { this.props.university }.
             <span className="university-location"> { this.props.location }</span>
           </h4>
+          <p className="education-description"><i>{this.props.description}</i></p>
         </div>
         <div className="col-lg-1 col-md-1 col-sm-1">
           <span className="education-year-of-comp">
@@ -32,6 +33,7 @@ export default class Education extends Component {
           location={ed.location}
           year_of_completion={ed.year_of_completion}
           university={ed.university}
+          description={ed.description}
         />
       )
     });
