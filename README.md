@@ -21,7 +21,7 @@ Requirements:
   git clone https://github.com/sreedevk/reacti-vitae # clone this repo
   cd reacti-vitae                                    # step into the project dir
   yarn install                                       # install node dependencies
-  yarn start                                         # start the development server
+  NODE_OPTIONS=--openssl-legacy-provider yarn start  # start the development server
 ```
 
 Visit `http://localhost:3000`
