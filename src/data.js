@@ -80,6 +80,14 @@ export default {
       "designation": "Senior Software Engineer"
     }
   ],
+  recommendations: [
+    {
+      author: "Gregory Waite",
+      content: "Sreedev has been nothing but a joy to work with. He is enthusiastic, not just for the projects he works on at work, but for the larger implications of tech and the world of coding. That enthusiasm is infectious and makes working harder easier. His excitement can keep you driven, and his ideas are so well founded in software development principles that his solutions usually end up being more elegant and simpler to implement. I cannot recommend Sreedev highly enough, as a coworker, a collaborator, and a friend.",
+      date: "2021-01-19",
+      author_meta: "Senior Software Engineer, Tunecore."
+    }
+  ],
   introduction: `I am a Software Engineer, a Tech Blogger, an Eloquent Orator, an Electronics Enthusiast among other things. Over the years I've worked in a few different industries including Realty, Insurance, Entertainment & Tech Services. I specialize in building Highly Available Distributed Data Processing Pipelines, International Taxation & Financial Systems Design and Event Driven Distributed Microservice Platforms. I am currently exploring lambda calculus, combinatory logic, category theory & functional programming. I've worked with a wide range of programming languages that span over different programming paradigms including Object Oriented, Functional, Logical, Imperative & Declarative programming. I consider my experience, technical skills and managerial abilities to be the three pillars of my performance as an asset to any organization.`,
   education: [
     { 

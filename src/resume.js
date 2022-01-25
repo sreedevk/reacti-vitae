@@ -7,6 +7,7 @@ import Introduction from './components/introduction.js'
 import ProgrammingSkills from './components/programming-skills.js'
 import TechnicalSkills from './components/technical-skills.js'
 import Career from './components/career.js'
+import Recommendations from './components/recommendations.js'
 import Education from './components/education.js'
 import Languages from './components/languages.js'
 import SoftwareAndTools from './components/software-and-tools.js'
@@ -33,8 +34,11 @@ export default class Resume extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12">
+              <div className="col-lg-8 col-md-8 col-sm-8">
                 <Career />
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <Recommendations />
               </div>
             </div>
             <div className="row">

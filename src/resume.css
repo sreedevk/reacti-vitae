@@ -246,6 +246,7 @@ table.software-and-tools-table {
 .notes-card {
   width: 100%;
   background: #dddddd;
+  font-family: ubuntu_regular;
   padding: 10px 0px 0px 10px;
   height: 450px;
 }
@@ -346,4 +347,77 @@ ul.interpersonal-skills li {
 
 .education-description {
   font-family: ubuntu_regular;
+}
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: ubuntu_regular;
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 200px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
+}
+
+.otro-blockquote{
+  font-size: 1.1em;
+  margin:20px auto;
+  font-family: ubuntu_regular;
+  text-align: justify;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #e63946 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#e63946;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after{
+  content: '';
+}
+
+.otro-blockquote span.author {
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.otro-blockquote span.author_meta {
+  color: #777;
 }
