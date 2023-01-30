@@ -3,6 +3,58 @@
   overflow: hidden;
 }
 
+.project-card-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  overflow-x: wrap;
+}
+
+.g-star, .g-fork {
+  width: 22px;
+  color: #E63946;
+}
+
+.project-description {
+  height: 100px;
+}
+
+.project-meta {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  margin: 10px 0px;
+  border-top: 1px solid #E63946;
+}
+
+.g-star-text {
+  display: inline-block;
+  padding-top: 15px;
+  font-family: jetbrains_bold;
+  font-size: 18px;
+  margin: 0px 25px 0px 5px;
+}
+
+.project-card h1 {
+  font-family: staarliches;
+}
+
+.project-card p {
+  text-align: left;
+  font-family: jetbrains_bold;
+  width: 400px;
+}
+
+.note-title {
+  font-family: staarliches;
+}
+
 .section-title {
   font-family: staarliches;
   padding: 5px 10px;
@@ -27,7 +79,6 @@
   font-family: ubuntu_regular;
   font-weight: 300;
   padding: 10px;
-  padding-right: 450px;
   margin-bottom: 30px;
 }
 

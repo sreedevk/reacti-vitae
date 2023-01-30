@@ -4,15 +4,15 @@ export default {
     last: "Kodichath"
   },
   designation: "Senior Software Engineer",
-  email: "sreedevpadmakumar@gmail.com",
-  phone: "+91-9600928275",
+  email: "hello@sree.dev",
+  phone: "+1 (929) 258-6975",
   date_of_birth: "11/06/1997",
   tagline: "Engineering & Architecting Distributed, Concurrent, Event Driven Reactive Software Systems",
   social: [
     {
       name: "github",
       icon: "fas fa-code-branch",
-      handle: "@sreedev"
+      handle: "@sreedevk"
     },
     {
       name: "linkedin",
@@ -31,19 +31,19 @@ export default {
     }
   ],
   address: { 
-    street: "BTM Layout",
-    city: "Bengaluru",
-    state: "Karnataka",
-    zip: "560029"
+    street: "Crown Heights",
+    city: "Brooklyn",
+    state: "New York",
+    zip: "11213"
   },
   career: [
     {
       "name": "HousingMan",
       "location": "Bengaluru, IN.",
       "summary": [
-        "Customer Relationship Management Software Design + Implementation",
-        "Customer Engagement Algorithms",
-        "Communication systems for improved customer interaction."
+        "Created a CRM application for real estate sales integrating lead lifecycle specifically for this market",
+        "Algorithms to categorize lead quality based on several factors including the source, status in pipeline & RM feedback.",
+        "Built tools like notification systems & automated reminders for improving quality of service."
       ],
       "stack": "Ruby/Rails, Postgresql, Javascript, PHP, AWS.",
       "start_date": "Feb, 2018",
@@ -54,9 +54,9 @@ export default {
       "name": "Riskcovry",
       "location": "Bengaluru, IN.",
       "summary": [
-        "Insurance Distribution API design & Implementation",
-        "Third Party Financial Solutions API Integration.",
-        "Admin tools for Business Intelligence & Data Analytics",
+        "Worked with the team to build software for automated insurance sales reporting.",
+        "Payment Gateway API Integration for collecting insurance payments.",
+        "Business Admin tools for summarizing & analyzing sales data, customer feedback & cash flow.",
         "Insurance Vendor Management Tools Design"
       ],
       "stack": "Ruby/Rails, Postgresql, Javascript, Python.",
@@ -68,19 +68,19 @@ export default {
       "name": "TarkaLabs",
       "location": "Bengaluru, IN.",
       "summary": [
-        "Technical Content Generation on subjects like Digital Signal Processing, Software Systems & Ruby Language Internals.",
+        "Technical Content Generation on subjects like Functional Programming, Digital Signal Processing & VM Internals.",
         "Client Technical Consultation (Tunecore).",
-        "High Volume Data Ingestion & Data Processing Pipelines Design & Implementation.",
-        "Financial Systems Design.",
-        "Customer Revenue Taxation Solutions (United States Tax Laws) - Design & Implementation.",
-        "Payment Systems Integration."],
+        "Designed & Implemented Data Pipelines for processing revenue data for 4 millions+ artists.",
+        "Implemented Complete tax deducation & revenue reporting system for distribution & publishing revenue.",
+        "Inbound & Outbound Third-party Payment Gateway Integration."
+      ],
       "stack": "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
       "start_date": "Jan, 2020",
       "end_date": "Present",
       "designation": "Senior Software Engineer"
     }
   ],
-  introduction: `I am a Software Engineer, a Tech Blogger, an Eloquent Orator, an Electronics Enthusiast among other things. Over the years I've worked in a few different industries including Realty, Insurance, Entertainment & Tech Services. I specialize in building Highly Available Distributed Data Processing Pipelines, International Taxation & Financial Systems Design and Event Driven Distributed Microservice Platforms. I am currently exploring lambda calculus, combinatory logic, category theory & functional programming. I've worked with a wide range of programming languages that span over different programming paradigms including Object Oriented, Functional, Logical, Imperative & Declarative programming. I consider my experience, technical skills and managerial abilities to be the three pillars of my performance as an asset to any organization.`,
+  introduction: `I am a Software Engineer, a Tech Blogger, an Electronics Enthusiast & a Radio Amateur. Over the years I've worked in a few different industries including Real Estate, Insurance, Entertainment & Tech Services. I have built Highly Available Distributed Data Processing Pipelines, International Taxation & Financial Systems and Event Driven Distributed Microservice Platforms. More recently, I've been exploring lambda calculus, combinatory logic, category theory & functional programming. I consider my experience, technical skills and managerial abilities to be the three pillars of my performance as an asset to any organization.`,
   education: [
     { 
       "university": "Bharathiar University",
@@ -107,14 +107,66 @@ export default {
   ],
   programming_skills: [
     { "skill_name": "Ruby", "proficiency": 100 },
-    { "skill_name": "Elixir", "proficiency": 80 },
-    { "skill_name": "Javascript", "proficiency": 90 },
-    { "skill_name": "C/C++", "proficiency": 90 },
-    { "skill_name": "Lua", "proficiency": 30 },
-    { "skill_name": "Python", "proficiency": 50 },
-    { "skill_name": "Rust", "proficiency": 60 },
-    { "skill_name": "Clojure", "proficiency": 40 },
-    { "skill_name": "Bash/Zsh/Fish", "proficiency": 60 },
+    { "skill_name": "Rust", "proficiency": 80 },
+    { "skill_name": "Javascript", "proficiency": 80 },
+    { "skill_name": "C/C++", "proficiency": 75 },
+    { "skill_name": "Bash", "proficiency": 50 },
+  ],
+  projects: [
+    {
+      "name": "Deduplicator",
+      "description": "A CLI tool to find,filter,delete duplicate files in your filesystem fast & interactively that uses fxhash algorithm & in-memory sqlite DB.",
+      "tech_stack": "rust, sqlite & fxhash algorithm",
+      "url": "github.com/sreedevk/deduplicator",
+      "stars": 88,
+      "contributors": 4,
+      "forks": 6
+    },
+    {
+      "name": "Reacti-Vitae",
+      "description": "A React based resume builder that takes information in json format & converts it into a resume. This resume is a product of this project.",
+      "tech_stack": "javascript, react & css",
+      "url": "github.com/sreedevk/reacti-vitae",
+      "stars": 22,
+      "contributors": 1,
+      "forks": 1
+    },
+    {
+      "name": "U8G2 K210 HAL",
+      "description": "Hardware Abstraction Layer for the U8G2 monochrome display library built for the K210/K510 development boards running Kendryte SDK.",
+      "tech_stack": "C",
+      "url": "github.com/sreedevk/u8g2-kendryte-sdk-hal",
+      "stars": 1,
+      "contributors": 1,
+      "forks": 0
+    },
+    {
+      "name": "Fylorg",
+      "description": "A smart file organizer that accepts a json format map to organize files based on keywords present in filenames.",
+      "tech_stack": "rust",
+      "url": "github.com/sreedevk/fylorg",
+      "stars": 1,
+      "contributors": 1,
+      "forks": 0
+    },
+    {
+      "name": "Pocketbase SDK",
+      "description": "Rust SDK for a popular open source backend - Pocketbase.",
+      "tech_stack": "rust",
+      "url": "github.com/sreedevk/pocketbase-sdk-rust",
+      "stars": 22,
+      "contributors": 2,
+      "forks": 2
+    },
+    {
+      "name": "Aws-ssh",
+        "description": "A CLI tool that let's you list,filter & ssh into aws ec2 instances fast",
+        "tech_stack": "bash, zsh, fzf & jq",
+        "url": "github.com/sreedevk/aws-ssh",
+        "stars": 6,
+        "contributors": 1,
+        "forks": 1
+    }
   ],
   software_and_tools: [
     {
@@ -228,17 +280,14 @@ export default {
     "Team Building Skills",
     "Responsibility & Accountability",
     "Stellar Communication Skills",
-    "Conflict Resolution",
     "Problem Solving Skills"
   ],
   technical_skills: [
-    "Algorithms", "Data Structures", "Objected Oriented Design", "Functional Programming",
-    "Dynamic Programming", "Financial Systems Design", "Lambda Calculus", "Web Applications",
-    "Design Patterns", "Software Architecture", "Data Processing Pipelines", "Concurrency & Parallelism",
-    "UI/UX Analysis & Design", "Compiler Design", "Distributed Systems", "Competitive Programming",
-    "Game Development", "Category Theory", "Event Driven Architecture", "Combinatory Logic",
-    "Audio Programming", "Technical Documentation", "Business Analytics", "Revenue & Tax Solutions", 
-    "Reactive Programming", "Automata Theory", "Theory of Computation"
+    "Algorithms", "Data Structures", "Object Oriented Design", "Functional Programming",
+    "Financial Systems", "Lambda Calculus", "Web Applications",
+    "ETL Pipelines", "Distributed Systems",
+    "Category Theory", "Event Driven Design",
+    "Audio Programming", "Technical Documentation", "Business Analytics", "Statistical Analysis" 
   ],
   achievements: [
     "Electronic Keyboard Grade I - Trinity College of London",
@@ -248,5 +297,5 @@ export default {
     "Talk - 'Materialized Views in Rails' (TarkaLabs)",
     "Talk - 'Introduction to Elixir' (TarkaLabs)"
   ],
-  interests: "Public Speaking, Blogging, OpenSource Contributions, Radiography (SDR & Amateur Radio), Music."
+  interests: "Public Speaking, Blogging, OpenSource Contributions, Amateur Radio - KD2ZWB/VU2JWE, Music."
 }

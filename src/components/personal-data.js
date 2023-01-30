@@ -31,10 +31,6 @@ export default class PersonalData extends Component {j
                   <th>INTERESTS</th>
                   <td><div className="interests">{ResumeData?.interests}</div></td>
                 </tr>
-                <tr>
-                  <th>DOB</th>
-                  <td><span className="dob">{ResumeData?.date_of_birth}</span></td>
-                </tr>
               </tbody>
             </table>
           </div>

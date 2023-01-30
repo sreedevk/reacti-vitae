@@ -9,7 +9,7 @@ import TechnicalSkills from './components/technical-skills.js'
 import Career from './components/career.js'
 import Education from './components/education.js'
 import Languages from './components/languages.js'
-import SoftwareAndTools from './components/software-and-tools.js'
+import OpenSourceProjects from './components/open-source-projects.js'
 import PersonalData from './components/personal-data.js'
 import InterpersonalSkills from './components/interpersonal-skills.js'
 import Notes from './components/notes.js'
@@ -42,7 +42,7 @@ export default class Resume extends Component {
                 <Education />
               </div>
               <div className="col-lg-8 col-md-8 col-sm-12">
-                <SoftwareAndTools />
+                <OpenSourceProjects />
               </div>
             </div>
             <div className="row">
