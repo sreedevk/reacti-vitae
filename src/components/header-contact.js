@@ -9,9 +9,8 @@ export default class HeaderContact extends Component {
           <i className="fa fa-globe-asia"></i>
           <span className="header-contact-text">
             {
-              `${ResumeData?.address?.street},
-               ${ResumeData?.address?.city},
-               ${ResumeData?.address?.state} - ${ResumeData?.address?.zip}`
+              `${ResumeData?.address?.city},
+               ${ResumeData?.address?.state}`
             }
           </span>
         </li>

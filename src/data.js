@@ -1,101 +1,102 @@
 export default {
   name: {
     first: "Sreedev",
-    last: "Kodichath"
+    last: "Kodichath",
   },
   designation: "Senior Software Engineer",
   email: "hello@sree.dev",
   phone: "+1 (929) 258-6975",
   date_of_birth: "11/06/1997",
-  tagline: "Engineering & Architecting Distributed, Concurrent, Event Driven Reactive Software Systems",
+  tagline: "Driving innovation through efficient engineering",
   social: [
     {
       name: "github",
       icon: "fas fa-code-branch",
-      handle: "@sreedevk"
+      handle: "@sreedevk",
     },
     {
       name: "linkedin",
       icon: "fab fa-linkedin",
-      handle: "/in/ksreedev"
+      handle: "/in/ksreedev",
     },
     {
       name: "reddit",
       icon: "fab fa-reddit-alien",
-      handle: "/u/dev-97"
+      handle: "/u/dev-97",
     },
     {
       name: "website",
       icon: "fas fa-globe-asia",
-      handle: "www.sree.dev"
-    }
+      handle: "www.sree.dev",
+    },
   ],
-  address: { 
+  address: {
     street: "Crown Heights",
     city: "Brooklyn",
     state: "New York",
-    zip: "11213"
+    zip: "11213",
   },
   career: [
     {
       "name": "HousingMan",
       "location": "Bengaluru, IN.",
       "summary": [
-        "Created a CRM application for real estate sales integrating lead lifecycle specifically for this market",
-        "Algorithms to categorize lead quality based on several factors including the source, status in pipeline & RM feedback.",
-        "Built tools like notification systems & automated reminders for improving quality of service."
+        "Designed and developed a customized CRM application for the real estate sales industry, focusing on the lead lifecycle",
+        "Implemented algorithms to categorize lead quality based on various factors such as source, pipeline status, and sales representative feedback",
+        "Built effective tools, such as automated notification systems and reminders, to enhance the overall quality of service and improve sales performance.",
       ],
       "stack": "Ruby/Rails, Postgresql, Javascript, PHP, AWS.",
       "start_date": "Feb, 2018",
       "end_date": "Feb, 2019",
-      "designation": "Software Engineer"
+      "designation": "Software Engineer",
     },
     {
       "name": "Riskcovry",
       "location": "Bengaluru, IN.",
       "summary": [
-        "Worked with the team to build software for automated insurance sales reporting.",
-        "Payment Gateway API Integration for collecting insurance payments.",
-        "Business Admin tools for summarizing & analyzing sales data, customer feedback & cash flow.",
-        "Insurance Vendor Management Tools Design"
+        "Collaborated with the team to develop software for efficient insurance sales reporting, including the integration of a payment gateway API for seamless payment collection",
+        "Designed and implemented business administration tools for analyzing sales data, tracking customer feedback, and monitoring cash flow",
+        "Contributed to the creation of insurance vendor management tools, streamlining processes and improving overall operations",
       ],
       "stack": "Ruby/Rails, Postgresql, Javascript, Python.",
       "start_date": "Feb, 2019",
       "end_date": "Jan, 2020",
-      "designation": "Software Engineer"
+      "designation": "Software Engineer",
     },
     {
       "name": "TarkaLabs",
-      "location": "Bengaluru, IN.",
+      "location": "New York, US.",
       "summary": [
-        "Technical Content Generation on subjects like Functional Programming, Digital Signal Processing & VM Internals.",
-        "Client Technical Consultation (Tunecore).",
-        "Designed & Implemented Data Pipelines for processing revenue data for 4 millions+ artists.",
-        "Implemented Complete tax deducation & revenue reporting system for distribution & publishing revenue.",
-        "Inbound & Outbound Third-party Payment Gateway Integration."
+        "Collaborated on the design and implementation of data pipelines for processing revenue data for over 4 million artists (Tunecore, Inc.,)",
+        "Contributed to the development of a comprehensive tax deduction and revenue reporting system for music distribution and publishing revenue (Tunecore, Inc.,)",
+        "Assisted in ensuring accurate and efficient financial tracking and reporting for the organization (Tunecore, Inc.,)",
       ],
-      "stack": "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
+      "stack":
+        "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
       "start_date": "Jan, 2020",
       "end_date": "Present",
-      "designation": "Senior Software Engineer"
-    }
+      "designation": "Senior Software Engineer",
+    },
   ],
-  introduction: `I am a Software Engineer, a Tech Blogger, an Electronics Enthusiast & a Radio Amateur. Over the years I've worked in a few different industries including Real Estate, Insurance, Entertainment & Tech Services. I have built Highly Available Distributed Data Processing Pipelines, International Taxation & Financial Systems and Event Driven Distributed Microservice Platforms. More recently, I've been exploring lambda calculus, combinatory logic, category theory & functional programming. I consider my experience, technical skills and managerial abilities to be the three pillars of my performance as an asset to any organization.`,
+  introduction:
+    `I am a software engineer, tech blogger, electronics enthusiast, and radio amateur with a wealth of experience in industries such as real estate, insurance, entertainment, and tech services. I have expertise in designing and implementing highly available data processing pipelines, financial systems, and microservice platforms. I am currently exploring advanced topics in functional programming, including lambda calculus, combinatory logic, and category theory. I believe my technical skills, managerial abilities, and real-world experience make me a valuable asset to any organization.`,
   education: [
-    { 
+    {
       "university": "Bharathiar University",
       "degree": "Bachelor of Commerce",
-      "description": "Extensively studied Financial Systems Design, Accounting Systems & Business Evaluation Strategies which helped me evolve into a Software Engineer focused on Financial Systems Design.",
+      "description":
+        "Extensively studied Financial Systems Design, Accounting Systems & Business Evaluation Strategies which helped me evolve into a Software Engineer focused on Financial Systems Design.",
       "location": "Tamilnadu, IN.",
-      "year_of_completion": 2018
+      "year_of_completion": 2018,
     },
-    { 
+    {
       "university": "Our Own English High School",
       "degree": "Senior Secondary Education - CBSE",
-      "description": "Spent my formative years under the guidance of world class teachers, developing academically and socially.",
+      "description":
+        "Spent my formative years under the guidance of world class teachers, developing academically and socially.",
       "location": "Sharjah, AE.",
-      "year_of_completion": 2015
-    }
+      "year_of_completion": 2015,
+    },
   ],
   human_languages: [
     { "name": "English", "proficiency": 5 },
@@ -115,39 +116,43 @@ export default {
   projects: [
     {
       "name": "Deduplicator",
-      "description": "A CLI tool to find,filter,delete duplicate files in your filesystem fast & interactively that uses fxhash algorithm & in-memory sqlite DB.",
+      "description":
+        "A CLI tool to find,filter,delete duplicate files in your filesystem fast & interactively that uses fxhash algorithm & in-memory sqlite DB.",
       "tech_stack": "rust, sqlite & fxhash algorithm",
       "url": "github.com/sreedevk/deduplicator",
       "stars": 88,
       "contributors": 4,
-      "forks": 6
+      "forks": 6,
     },
     {
       "name": "Reacti-Vitae",
-      "description": "A React based resume builder that takes information in json format & converts it into a resume. This resume is a product of this project.",
+      "description":
+        "A React based resume builder that takes information in json format & converts it into a resume. This resume is a product of this project.",
       "tech_stack": "javascript, react & css",
       "url": "github.com/sreedevk/reacti-vitae",
       "stars": 22,
       "contributors": 1,
-      "forks": 1
+      "forks": 1,
     },
     {
       "name": "U8G2 K210 HAL",
-      "description": "Hardware Abstraction Layer for the U8G2 monochrome display library built for the K210/K510 development boards running Kendryte SDK.",
+      "description":
+        "Hardware Abstraction Layer for the U8G2 monochrome display library built for the K210/K510 development boards running Kendryte SDK.",
       "tech_stack": "C",
       "url": "github.com/sreedevk/u8g2-kendryte-sdk-hal",
       "stars": 1,
       "contributors": 1,
-      "forks": 0
+      "forks": 0,
     },
     {
       "name": "Fylorg",
-      "description": "A smart file organizer that accepts a json format map to organize files based on keywords present in filenames.",
+      "description":
+        "A smart file organizer that accepts a json format map to organize files based on keywords present in filenames.",
       "tech_stack": "rust",
       "url": "github.com/sreedevk/fylorg",
       "stars": 1,
       "contributors": 1,
-      "forks": 0
+      "forks": 0,
     },
     {
       "name": "Pocketbase SDK",
@@ -156,17 +161,18 @@ export default {
       "url": "github.com/sreedevk/pocketbase-sdk-rust",
       "stars": 22,
       "contributors": 2,
-      "forks": 2
+      "forks": 2,
     },
     {
       "name": "Aws-ssh",
-        "description": "A CLI tool that let's you list,filter & ssh into aws ec2 instances fast",
-        "tech_stack": "bash, zsh, fzf & jq",
-        "url": "github.com/sreedevk/aws-ssh",
-        "stars": 6,
-        "contributors": 1,
-        "forks": 1
-    }
+      "description":
+        "A CLI tool that let's you list,filter & ssh into aws ec2 instances fast",
+      "tech_stack": "bash, zsh, fzf & jq",
+      "url": "github.com/sreedevk/aws-ssh",
+      "stars": 6,
+      "contributors": 1,
+      "forks": 1,
+    },
   ],
   software_and_tools: [
     {
@@ -179,8 +185,8 @@ export default {
         "Dgraph",
         "Redis",
         "Neo4j",
-        "Datomic"
-      ]
+        "Datomic",
+      ],
     },
     {
       "category_name": "Web Frameworks",
@@ -192,8 +198,8 @@ export default {
         "Sinatra (Ruby)",
         "Vial (Rust)",
         "Next (JS)",
-        "Padrino (Ruby)"
-      ]
+        "Padrino (Ruby)",
+      ],
     },
     {
       "category_name": "Data Processing",
@@ -205,8 +211,8 @@ export default {
         "RIOT (Redis)",
         "Snowflake",
         "Awk",
-        "Tee"
-      ]
+        "Tee",
+      ],
     },
     {
       "category_name": "Frontend Tools",
@@ -218,8 +224,8 @@ export default {
         "SCSS",
         "TailWindCSS",
         "Gatsby",
-        "StimulusJS"
-      ]
+        "StimulusJS",
+      ],
     },
     {
       "category_name": "Embedded Systems",
@@ -231,8 +237,8 @@ export default {
         "K210-SDK",
         "",
         "",
-        ""
-      ]
+        "",
+      ],
     },
     {
       "category_name": "Game Development",
@@ -244,8 +250,8 @@ export default {
         "",
         "",
         "",
-        ""
-      ]
+        "",
+      ],
     },
     {
       "category_name": "Test Frameworks",
@@ -257,8 +263,8 @@ export default {
         "ExUnit",
         "",
         "",
-        ""
-      ]
+        "",
+      ],
     },
     {
       "category_name": "Others",
@@ -270,9 +276,9 @@ export default {
         "ArchLinux",
         "Wordpress",
         "SEO Algorithms",
-        "Social Media Management"
-      ]
-    }
+        "Social Media Management",
+      ],
+    },
   ],
   interpersonal_skills: [
     "Emotional Intelligence",
@@ -280,14 +286,27 @@ export default {
     "Team Building Skills",
     "Responsibility & Accountability",
     "Stellar Communication Skills",
-    "Problem Solving Skills"
+    "Problem Solving Skills",
+    "Negotiation Skills",
+    "Customer Focus",
+    "Adaptability",
   ],
   technical_skills: [
-    "Algorithms", "Data Structures", "Object Oriented Design", "Functional Programming",
-    "Financial Systems", "Lambda Calculus", "Web Applications",
-    "ETL Pipelines", "Distributed Systems",
-    "Category Theory", "Event Driven Design",
-    "Audio Programming", "Technical Documentation", "Business Analytics", "Statistical Analysis" 
+    "Algorithms",
+    "Data Structures",
+    "Object Oriented Design",
+    "Functional Programming",
+    "Database Design",
+    "Financial Systems",
+    "Lambda Calculus",
+    "Web Applications",
+    "ETL Pipelines",
+    "Distributed Systems",
+    "Category Theory",
+    "Event Driven Design",
+    "Audio Programming",
+    "Technical Documentation",
+    "Business Statistics",
   ],
   achievements: [
     "Electronic Keyboard Grade I - Trinity College of London",
@@ -295,7 +314,8 @@ export default {
     "Talk - 'Command Line Voodoo' (Sedin Technologies)",
     "Talk - 'Ruby & Rails Tips & Tricks' (Sedin Technologies)",
     "Talk - 'Materialized Views in Rails' (TarkaLabs)",
-    "Talk - 'Introduction to Elixir' (TarkaLabs)"
+    "Talk - 'Introduction to Elixir' (TarkaLabs)",
   ],
-  interests: "Public Speaking, Blogging, OpenSource Contributions, Amateur Radio - KD2ZWB/VU2JWE, Music."
-}
+  interests:
+    "Public Speaking, Blogging, OpenSource Contributions, Amateur Radio - KD2ZWB/VU2JWE, Music.",
+};

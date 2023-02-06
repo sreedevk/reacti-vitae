@@ -3,7 +3,7 @@ import ResumeData from '../data'
 
 
 export default class Languages extends Component {
-  listLanguages(index){
+  listLanguages(index) {
     const languageList = ResumeData?.human_languages;
     const languageComponentList = [[], []];
     let columnSelector = 0;
@@ -14,7 +14,7 @@ export default class Languages extends Component {
             <h4 className="language-name">{language.name}</h4>
           </div>
           <div className="col-6">
-            <span className="proficiency-indicator">{'*'.repeat(language.proficiency || 0) }</span>
+            <span className="proficiency-indicator">{'*'.repeat(language.proficiency || 0)}</span>
           </div>
         </div>
       );
@@ -23,8 +23,8 @@ export default class Languages extends Component {
     return languageComponentList[index];
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <React.Fragment>
         <h2 className="section-title">
           <i className="fas fa-language"></i>
@@ -32,10 +32,10 @@ export default class Languages extends Component {
         </h2>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6">
-            { this.listLanguages(0)}
+            {this.listLanguages(0)}
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6">
-            { this.listLanguages(1)}
+            {this.listLanguages(1)}
           </div>
         </div>
       </React.Fragment>

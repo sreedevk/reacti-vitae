@@ -4,11 +4,11 @@ import HeaderSocial from './header-social.js'
 import ResumeData from '../data'
 
 export default class Header extends Component {
-  render(){
-    return(
+  render() {
+    return (
       <header>
         <div className="row">
-          <div className="col-lg-7 col-md-7 col-sm-12">
+          <div className="col-lg-9 col-md-7 col-sm-12">
             <h1 className="site-title">
               <span>{ResumeData?.name?.first.toUpperCase()}</span>
               <span>&nbsp;</span>
@@ -16,7 +16,7 @@ export default class Header extends Component {
             </h1>
             <h4 className="designation">{ResumeData?.designation}</h4>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-12">
+          <div className="col-lg-3 col-md-5 col-sm-12">
             <HeaderContact />
           </div>
         </div>

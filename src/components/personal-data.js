@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import ResumeData from '../data';
 
-export default class PersonalData extends Component {j
-  listAchievements(){
-    return ResumeData?.achievements.map(function(achievement, index){
-      return(<li key={`achievement_${index}`}>{achievement}</li>)
+export default class PersonalData extends Component {
+  listAchievements() {
+    return ResumeData?.achievements.map(function(achievement, index) {
+      return (<li key={`achievement_${index}`}>{achievement}</li>)
     });
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <React.Fragment>
         <h2 className="section-title">
           <i className="fas fa-user-secret"></i>
@@ -23,7 +23,7 @@ export default class PersonalData extends Component {j
                   <th>ACHIEVEMENTS</th>
                   <td>
                     <ul className="pd-achievements-list">
-                      { this.listAchievements() }
+                      {this.listAchievements()}
                     </ul>
                   </td>
                 </tr>

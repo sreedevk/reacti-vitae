@@ -13,10 +13,10 @@ export default class HeaderSocial extends Component {
     })
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <ul className="header-social">
-        { this.formatSocial() }
+        {this.formatSocial()}
       </ul>
     )
   }
