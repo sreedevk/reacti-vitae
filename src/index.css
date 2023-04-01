@@ -1,43 +1,21 @@
-@font-face {
-  src: url('./assets/fonts/Poppins-Bold.ttf');
-  font-family: poppins_bold;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
-  src: url('./assets/fonts/JetBrainsMono-Bold.ttf');
-  font-family: jetbrains_bold;
-}
-
-@font-face {
-  src: url('./assets/fonts/Ubuntu-Medium.ttf');
-  font-family: ubuntu_regular;
+  src: local('Anton-Regular'), url(@/assets/fonts/Anton-Regular.ttf) format('truetype');
+  font-family: "anton";
 }
 
 @font-face {
-  src: url('./assets/fonts/Anton-Regular.ttf');
-  font-family: anton;
+  src: local('Staatliches-Regular'), url(@/assets/fonts/Staatliches-Regular.ttf) format('truetype');
+  font-family: "staatliches"; 
 }
 
-@font-face {
-  src: url('./assets/fonts/Staatliches-Regular.ttf');
-  font-family: staarliches;
+.font-anton {
+  font-family: "anton";
 }
 
-@font-face  {
-  src: url('./assets/fonts/NotoSerif-Regular.ttf');
-  font-family: notoserif_regular;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-staatliches {
+  font-family: "staatliches"; 
 }
