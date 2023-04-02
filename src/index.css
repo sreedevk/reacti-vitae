@@ -12,6 +12,33 @@
   font-family: "staatliches"; 
 }
 
+@font-face {
+  src: local('Alata-Regular'), url(@/assets/fonts/Alata-Regular.ttf) format('truetype');
+  font-family: "alata"; 
+}
+
+@font-face {
+  src: local('Highway-Gothic'), url(@/assets/fonts/highway_gothic_regular.ttf) format('truetype');
+  font-family: 'highway-gothic';
+}
+
+@font-face {
+  src: local('Vollkorn'), url(@/assets/fonts/Vollkorn-VariableFont_wght.ttf) format('truetype');
+  font-family: 'volkorn';
+}
+
+.font-volkorn {
+  font-family: 'volkorn';
+}
+
+.font-highway-gothic {
+  font-family: 'highway-gothic';
+}
+
+.font-alata {
+  font-family: "alata";
+}
+
 .font-anton {
   font-family: "anton";
 }

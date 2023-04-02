@@ -2,20 +2,22 @@ import BasicData from '../data/basic'
 
 const Contact = () => {
   return (
-    <ul>
+    <ul className='text-right'>
       <li>
-        <i className="fa fa-globe-asia mx-1"></i>
-        <span>{ `${BasicData?.address?.city}, ${BasicData?.address?.state}` }</span>
+        <span className='font-sans font-bold mx-2'>
+          {`${BasicData?.address?.city}, ${BasicData?.address?.state}`}
+        </span>
+        <i className="fa fa-globe-asia text-rose-600"></i>
       </li>
       <li>
-        <i className="fas fa-envelope mx-1"></i>
-        <span>
+        <span className='font-sans font-bold mx-2'>
           <a href={`mailto:${BasicData?.email}`}>{BasicData?.email}</a>
         </span>
+        <i className="fas fa-envelope text-rose-600"></i>
       </li>
       <li>
-        <i className="fas fa-address-card mx-1"></i>
-        <span>{BasicData?.phone}</span>
+        <span className='font-sans font-bold mx-2'>{BasicData?.phone}</span>
+        <i className="fas fa-address-card text-rose-600"></i>
       </li>
     </ul>
   )

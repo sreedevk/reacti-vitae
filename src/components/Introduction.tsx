@@ -5,7 +5,7 @@ const Introduction = () => {
   return (
     <div className="my-1">
       <Title icon_class='fas fa-user-cog' title="Introduction"/>
-      <p className="my-1 text-sm text-justify">{Elevator}</p>
+      <p className="my-2 font-bold text-sm px-4 text-justify">{Elevator}</p>
     </div>
   )
 }

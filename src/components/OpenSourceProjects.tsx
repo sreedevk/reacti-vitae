@@ -13,10 +13,10 @@ type Project = {
 
 const projectFormatter = (project: Project) => {
   return (
-    <a href={project.url} className='w-2/6 my-2 px-1'>
+    <a href={project.url} className='w-2/6 my-1 px-1'>
       <div className='hover:bg-rose-400 hover:text-white p-4'>
-        <h2 className='font-staatliches text-lg'>{project.name}</h2>
-        <p className='text-xs h-28'>{project.description}</p>
+        <h2 className='font-staatliches text-xl'>{project.name}</h2>
+        <p className='text-xs font-bold h-28 my-2'>{project.description}</p>
       </div>
     </a>
     

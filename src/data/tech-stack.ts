@@ -32,7 +32,8 @@ export default {
       "ruby/Sidekiq",
       "elixir/Broadway",
       "elixir/GenStage",
-      "RabbitMQ"
+      "RabbitMQ",
+      "Pola.rs"
     ],
     development_tools: [
       "Neovim",
@@ -40,6 +41,12 @@ export default {
       "Arch Linux",
       "Zsh",
       "Tmux"
+    ],
+    cloud_architecture: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Capistrano"
     ]
   }
 }
