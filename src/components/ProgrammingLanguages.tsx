@@ -21,9 +21,9 @@ const ProgrammingLanguages = () => {
   const formattedLanguages = TechStack?.languages.map(formatLanguage)
 
   return (
-    <div className='my-1 mr-4'>
+    <div className='my-1'>
       <Title icon_class='fas fa-terminal' title='Programming Languages' />
-      <div className='my-2 mx-1'>
+      <div className='my-2 px-2'>
         { formattedLanguages }
       </div>
     </div>

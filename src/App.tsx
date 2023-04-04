@@ -22,9 +22,13 @@ function App() {
         <div>
           <Introduction />
         </div>
-        <div className="flex flex-col md:flex-row my-2">
-          <ProgrammingLanguages />
-          <Tools />
+        <div className="flex flex-col justify-between md:flex-row my-2">
+          <div>
+            <ProgrammingLanguages />
+          </div>
+          <div>
+            <Tools />
+          </div>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className='w-full md:w-1/2 mr-2'>
