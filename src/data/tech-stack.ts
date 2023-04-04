@@ -21,7 +21,7 @@ export default {
     ],
     web: [
       "Ruby/Rails",
-      "Rlixir/Phoenix",
+      "Elixir/Phoenix",
       "ts/Astro",
       "ts/Next.js",
       "Vite",
