@@ -22,7 +22,7 @@ function App() {
         <div>
           <Introduction />
         </div>
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row my-2">
           <ProgrammingLanguages />
           <Tools />
         </div>

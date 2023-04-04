@@ -17,36 +17,47 @@ export default {
       "MongoDB",
       "Redis",
       "Snowflake",
-      "SurrealDB"
+      "SurrealDB",
     ],
     web: [
-      "ruby/rails",
-      "elixir/phoenix",
-      "ts/astro",
-      "ts/next.js",
-      "vite",
-      "turbopack",
-      "tailwind"
+      "Ruby/Rails",
+      "Rlixir/Phoenix",
+      "ts/Astro",
+      "ts/Next.js",
+      "Vite",
+      "Turbopack",
+      "Tailwind"
     ],
     data_processing: [
-      "ruby/Sidekiq",
-      "elixir/Broadway",
-      "elixir/GenStage",
+      "Ruby/Sidekiq",
+      "Elixir/Broadway",
+      "Elixir/GenStage",
       "RabbitMQ",
-      "Pola.rs"
+      "Rust/Polars",
     ],
     development_tools: [
       "Neovim",
       "Emacs",
-      "Arch Linux",
+      "ArchLinux",
       "Zsh",
-      "Tmux"
+      "Tmux",
+      "i3wm"
     ],
     cloud_architecture: [
-      "AWS",
       "Docker",
       "Kubernetes",
-      "Capistrano"
+      "AWS/EC2/ECS",
+      "AWS/RDS",
+      "AWS/Cloudwatch",
+      "AWS/S3",
+      "Airbrake",
+    ],
+    other: [
+      "hledger",
+      "Git",
+      "GDB/LLDB",
+      "ARM Assembly",
+      "Wordpress"
     ]
   }
 }

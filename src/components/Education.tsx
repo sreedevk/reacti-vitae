@@ -16,13 +16,13 @@ const educationFormatter = (education: Education) => {
         <h2 className="font-bold text-lg">{education.degree}</h2>
         <h3 className='font-bold text-gray-500'>{education.year_of_completion}</h3>
       </div>
-      <h3 className='text-md italic'>
-        {education.university},
+      <h3 className='italic font-alata'>
+        <span className='text-sm'>{education.university}</span>,
         <span className='text-sm text-rose-500 font-bold'>
           &nbsp;{education.location}
         </span>
       </h3>
-      <p className='my-1 text-xs'>{education.description}</p>
+      <p className='my-1 text-sm italic bold'>{education.description}</p>
     </div>
   )
 }
