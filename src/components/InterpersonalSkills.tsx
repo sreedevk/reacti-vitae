@@ -26,7 +26,7 @@ const InterpersonalSkills = () => {
   return (
     <div>
       <Title icon_class="fas fa-network-wired" title="Interpersonal Skills" />
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col md:flex-row px-6 justify-between">
         {formatSkills(InterpersonalSkillsList)}
       </div>
     </div>

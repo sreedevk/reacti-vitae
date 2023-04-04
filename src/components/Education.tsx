@@ -11,7 +11,7 @@ type Education = {
 
 const educationFormatter = (education: Education) => {
   return (
-    <div className='my-4'>
+    <div className='my-4 px-4'>
       <div className='flex flex-row justify-between'>
         <h2 className="font-bold text-lg">{education.degree}</h2>
         <h3 className='font-bold text-gray-500'>{education.year_of_completion}</h3>

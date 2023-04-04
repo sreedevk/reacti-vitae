@@ -9,7 +9,7 @@ type Article = {
 
 const articleFormatter = (article: Article) => {
   return (
-    <li className="my-1 font-bold hover:text-rose-500">
+    <li className="my-1.5 font-bold hover:text-rose-500 text-center md:text-left italic">
       <a href={article.url} className="underline text-sm">
         {article.title}
       </a>
@@ -25,7 +25,7 @@ const WritingAndMedia = () => {
   return (
     <div className="w-full mr-2">
       <Title title="Writing & Media" icon_class="fa-solid fa-photo-film" />    
-      <div>
+      <div className="my-4">
         <ul>
           {WritingAndMediaList?.articles?.sort(dateSorter).map(articleFormatter)}
         </ul>

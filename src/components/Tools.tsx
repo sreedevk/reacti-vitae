@@ -9,7 +9,7 @@ const skillFormatter = (skill: string)  => {
 
 const skillBlockFormatter = (skills: string[], title: string) => {
   return (
-    <div>
+    <div className="w-1/2 md:w-1/6 text-center md:text-left">
       <h3 className="underline font-bold my-2 uppercase font-highway-gothic text-rose-600">{title}</h3>
       <ul className="text-sm">
         { skills.map(skillFormatter) }
@@ -22,7 +22,7 @@ const Tools = () => {
   return (
     <div className="my-1 w-full">
       <Title icon_class='fas fa-cog' title='Tools' />
-      <div className="flex mx-1 flex-row justify-between">
+      <div className="flex mx-1 flex-wrap md:justify-between justify-around">
         { skillBlockFormatter(TechStack?.tools?.databases, "Databases") }
         { skillBlockFormatter(TechStack?.tools?.web, "Web") }
         { skillBlockFormatter(TechStack?.tools?.data_processing, "Data Processing") }

@@ -18,29 +18,31 @@ function App() {
     <main className='mt-2'>
       <Header />
       <Tagline />
-      <div className="container flex flex-row md:flex-col mx-auto">
-        <Introduction />
+      <div className="container flex flex-col mx-auto">
+        <div>
+          <Introduction />
+        </div>
         <div className="flex flex-col md:flex-row">
           <ProgrammingLanguages />
           <Tools />
         </div>
         <div className="flex flex-col md:flex-row">
-          <div className='w-1/2 mr-2'>
+          <div className='w-full md:w-1/2 mr-2'>
             <Career />
           </div>
-          <div className='w-1/2 flex flex-row md:flex-col'>
+          <div className='w-full md:w-1/2 flex flex-wrap md:flex-col'>
             <OpenSourceProjects />
             <Education />
           </div>
         </div>
         <div className='flex flex-col md:flex-row my-2'>
-          <div className="w-2/6 mr-4"><Languages /></div>
-          <div className='w-4/6'><InterpersonalSkills /></div>
+          <div className="md:w-2/6 w-full mr-4"><Languages /></div>
+          <div className='md:w-4/6 w-full'><InterpersonalSkills /></div>
         </div>
         <div className='my-3 flex flex-col md:flex-row'>
           <WritingAndMedia />
           <Certifications />
-          <img src={QRCode} alt="qr-code" />
+          <img src={QRCode} alt="qr-code" className='md:w-1/4 md:ml-6' />
         </div>
       </div>
       <Footer />
