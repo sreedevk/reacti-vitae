@@ -2,6 +2,14 @@
 
 React-Vitae is a React template for generating interactive resumes. Its name is a wordplay on "React" and "Curriculum Vitae" (resume), which accurately represents its purpose. With React-Vitae, you can easily create a stunning resume that showcases your skills and experience in an interactive way.
 
+## Features
+
+1. Responsive design that looks great on all devices
+2. Support for adding social media links, including LinkedIn, Twitter, GitHub, etc.
+3. Ability to showcase open-source projects with descriptions, and links.
+4. Fontawesome Icons
+
+
 ## Usage
 
 All the data required by the application is stored in the `src/data/` directory. You can add your information to the relevant files in this directory. Once you have entered your details, running the application will generate a resume that looks like this:
