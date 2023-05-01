@@ -20,7 +20,7 @@ const skillBlockFormatter = (skills: string[], title: string) => {
 
 const Tools = () => {
   return (
-    <div className="my-1 w-full">
+    <div className="my-1">
       <Title icon_class='fas fa-cog' title='Tools' />
       <div className="flex flex-wrap justify-between">
         { skillBlockFormatter(TechStack?.tools?.databases, "Databases") }
