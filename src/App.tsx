@@ -23,10 +23,10 @@ function App() {
           <Introduction />
         </div>
         <div className="flex flex-col justify-between md:flex-row my-2">
-          <div className='w-1/3 mx-1'>
+          <div className='md:w-1/3 w-full mx-1'>
             <ProgrammingLanguages />
           </div>
-          <div className='w-2/3 mx-1'>
+          <div className='md:w-2/3 w-full mx-1'>
             <Tools />
           </div>
         </div>
