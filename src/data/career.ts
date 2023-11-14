@@ -29,14 +29,27 @@ export default [
     "name": "TarkaLabs",
     "location": "New York, US.",
     "summary": [
-      "Collaborated on the design and implementation of data pipelines for processing revenue data for over 4 million artists (Tunecore, Inc.,)",
-      "Contributed to the development of a comprehensive tax deduction and revenue reporting system for music distribution and publishing revenue (Tunecore, Inc.,)",
-      "Assisted in ensuring accurate and efficient financial tracking and reporting for the organization (Tunecore, Inc.,)",
+      "Worked as a consultant for a leading music distribution company, collaborating with the team to develop a comprehensive tax deduction and revenue reporting system for music distribution and publishing revenue",
+      "Published articles & blogs covering various topics such as digital signal processing, functional programming & low level programming"
     ],
     "stack":
     "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
     "start_date": "Jan, 2020",
-    "end_date": "Present",
+    "end_date": "Oct, 2023",
     "designation": "Senior Software Engineer",
   },
+  {
+    "name": "Tunecore Inc.,",
+    "location": "New York, US.",
+    "summary": [
+      "Collaborated on the design and implementation of data pipelines for processing revenue data for over 4 million artists",
+      "Contributed to the development of a comprehensive tax deduction and revenue reporting system for music distribution and publishing revenue",
+      "Assisted in ensuring accurate and efficient financial tracking and reporting for the organization",
+    ],
+    "stack":
+    "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
+    "start_date": "Oct, 2023",
+    "end_date": "Present",
+    "designation": "Senior Software Engineer",
+  }
 ]
