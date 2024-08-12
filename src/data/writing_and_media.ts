@@ -1,6 +1,11 @@
 export default {
   articles: [
     {
+      title: "Building a Long Term Data Storage Solution",
+      url: "https://devtechnica.com/long-term-storage-solutions/",
+      created_at: new Date("2024-06-18")
+    },
+    {
       title: "An Introductory Guide to Functional Programming Concepts",
       url: "https://sreedevk.medium.com/an-introductory-guide-to-functional-programming-concepts-5d23abf0b03a",
       created_at: new Date("2022-04-14")
