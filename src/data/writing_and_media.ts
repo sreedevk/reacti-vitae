@@ -2,7 +2,7 @@ export default {
   articles: [
     {
       title: "Building a Long Term Data Storage Solution",
-      url: "https://devtechnica.com/long-term-storage-solutions/",
+      url: "https://devtechnica.com/posts/building-a-long-term-storage-solution",
       created_at: new Date("2024-06-18")
     },
     {
@@ -27,4 +27,4 @@ export default {
     }
   ]
 }
-  
+

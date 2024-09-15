@@ -1,63 +1,49 @@
 export default {
   languages: [
     { "language": "Ruby", "proficiency": 100 },
-    { "language": "Elixir", "proficiency": 69 },
+    { "language": "Elixir", "proficiency": 70 },
     { "language": "Rust", "proficiency": 80 },
     { "language": "Typescript", "proficiency": 80 },
-    { "language": "Clojure", "proficiency": 50 },
     { "language": "C/C++", "proficiency": 75 },
     { "language": "Bash", "proficiency": 50 },
     { "language": "Lua", "proficiency": 60 },
+    { "language": "Nix", "proficiency": 90 },
   ],
   tools: {
     databases: [
       "PostgreSQL",
-      "MySQL/MariaDB",
-      "SQLite3",
-      "MongoDB",
+      "MariaDB",
       "Redis",
       "Snowflake",
-      "SurrealDB",
+      "ClickHouse"
     ],
     web: [
-      "Ruby/Rails",
-      "Elixir/Phoenix",
-      "ts/Astro",
-      "ts/Next.js",
-      "Vite",
-      "Turbopack",
+      "Ruby / Rails",
+      "Elixir / Phoenix",
+      "Next JS",
       "Tailwind"
     ],
     data_processing: [
-      "Ruby/Sidekiq",
-      "Elixir/Broadway",
-      "Elixir/GenStage",
+      "Ruby / Sidekiq",
+      "Elixir / Broadway",
       "RabbitMQ",
-      "Rust/Polars",
-    ],
-    development_tools: [
-      "Neovim",
-      "Emacs",
-      "ArchLinux",
-      "Zsh",
-      "Tmux",
-      "i3wm"
+      "Rust / Polars",
     ],
     cloud_architecture: [
       "Docker",
       "Kubernetes",
-      "AWS/EC2/ECS",
-      "AWS/RDS",
-      "AWS/Cloudwatch",
-      "AWS/S3",
+      "AWS",
       "Airbrake",
+      "Tailscale",
+      "ELK Stack"
     ],
     other: [
-      "hledger",
-      "Git",
-      "GDB/LLDB",
-      "ARM Assembly",
-      "Wordpress"
+      "Linux",
+      "Neovim",
+      "WireShark",
+      "Nmap",
+      "SystemD",
+      "OpenZFS"
     ]
   }
 }

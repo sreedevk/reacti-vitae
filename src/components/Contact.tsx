@@ -15,10 +15,6 @@ const Contact = () => {
         </span>
         <i className="fas fa-envelope text-rose-600 hidden md:inline-block"></i>
       </li>
-      <li>
-        <span className='font-sans font-bold mx-2'>{BasicData?.phone}</span>
-        <i className="fas fa-address-card text-rose-600 hidden md:inline-block"></i>
-      </li>
     </ul>
   )
 }

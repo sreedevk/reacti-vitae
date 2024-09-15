@@ -5,7 +5,7 @@ export default {
   },
   designation: "Senior Software Engineer",
   phone: "+1 (929) 258-6975",
-  email: "hello@sree.dev",
+  email: "sreedev@icloud.com",
   tagline: "Driving innovation through efficient engineering",
   address: {
     city: "Brooklyn",
